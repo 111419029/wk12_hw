@@ -26,7 +26,7 @@ void setup() {
   pinMode(7, OUTPUT);
   pinMode(8, OUTPUT);
  pinMode(9, OUTPUT);
-  digitalWrite(9, 0);  // 關閉小數點
+  digitalWrite(9, 1);  // 關閉小數點
   pinMode(buttonPin,INPUT_PULLUP);
   buttonHasReleased = true;
 }
