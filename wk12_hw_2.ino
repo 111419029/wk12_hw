@@ -50,7 +50,7 @@ void loop() {
   buttonHasReleased = !buttonPressed;
 
   sevenSegWrite(num);
-  Serial.println(buttonPressed); 
+  Serial.println(num); 
   delay(100);
 
 }
